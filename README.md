@@ -45,7 +45,7 @@ NumPy provides a wide range of functions for efficient numerical operations on a
 38. np.sum(x): Calculates the sum of the elements in x.
 
 <u><b> Pandas Functions</b></u>
-
+<ol>
 1.	Creating DataFrames:
 •	pd.DataFrame(): Create an empty DataFrame.
 •	pd.read_csv(): Read data from a CSV file into a DataFrame.
@@ -178,4 +178,4 @@ NumPy provides a wide range of functions for efficient numerical operations on a
 14.	Miscellaneous:
 •	sns.despine(): Remove the top and right spines from plots.
 •	sns.set_context(): Set the plotting context parameters.
-
+</ol>
