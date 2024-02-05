@@ -1,6 +1,6 @@
 # Complete_Data_Science_Codes
 
-<u>## NumPy Functions</u>
+<u><b> NumPy Functions</b></u>
 
 
 NumPy provides a wide range of functions for efficient numerical operations on arrays in Python. 
