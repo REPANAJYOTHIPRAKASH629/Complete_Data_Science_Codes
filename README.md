@@ -1,4 +1,8 @@
 # Complete_Data_Science_Codes
+
+<u>## NumPy Functions</u>
+
+
 NumPy provides a wide range of functions for efficient numerical operations on arrays in Python. 
 
 1. np.array(x): Creates a NumPy array from a Python object x.
