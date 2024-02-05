@@ -129,3 +129,53 @@ NumPy provides a wide range of functions for efficient numerical operations on a
 •	plt.close(): Close a figure.
 •	plt.tight_layout(): Adjust subplot parameters for better layout.
 
+
+
+<b>Seaborn</b>
+
+1.	Plotting Functions:
+•	sns.relplot(): Create a scatter or line plot with a FacetGrid.
+•	sns.scatterplot(): Create a scatter plot.
+•	sns.lineplot(): Create a line plot.
+•	sns.barplot(): Create a bar plot.
+•	sns.countplot(): Create a count plot.
+•	sns.boxplot(): Create a box plot.
+•	sns.violinplot(): Create a violin plot.
+•	sns.stripplot(): Create a strip plot.
+2.	Distribution Plots:
+•	sns.histplot(): Plot univariate or bivariate histograms.
+•	sns.kdeplot(): Plot univariate or bivariate kernel density estimates.
+•	sns.rugplot(): Plot marginal distributions of a variable.
+3.	Categorical Plots:
+•	sns.catplot(): Create a categorical plot.
+•	sns.swarmplot(): Draw a categorical scatter plot with non-overlapping points.
+4.	Matrix Plots:
+•	sns.heatmap(): Plot rectangular data as a color-encoded matrix.
+•	sns.clustermap(): Plot a matrix dataset as a hierarchically-clustered heatmap.
+5.	Regression Plots:
+•	sns.regplot(): Plot data and a linear regression model fit.
+•	sns.lmplot(): Plot data and a linear regression model fit with FacetGrid.
+6.	Pair Plots:
+•	sns.pairplot(): Plot pairwise relationships in a dataset.
+7.	Joint Plots:
+•	sns.jointplot(): Draw a scatter plot with univariate and bivariate histograms.
+8.	Time Series Plots:
+•	sns.lineplot(): Plot data on the x-axis against data on the y-axis.
+9.	Styling and Customization:
+•	sns.set(): Set aesthetic parameters in one step.
+•	sns.set_style(): Set the aesthetic style of the plots.
+•	sns.set_palette(): Set the color palette for the plot.
+10.	Context Management:
+•	sns.axes_style(): Return a parameter dict for the aesthetic style.
+•	sns.plotting_context(): Return a parameter dict to scale elements of the figure.
+11.	Color Palettes:
+•	sns.color_palette(): Return a list of colors defining a color palette.
+•	sns.light_palette(), sns.dark_palette(): Create sequential color palettes.
+12.	FacetGrid:
+•	sns.FacetGrid(): Multi-plot grid for plotting conditional relationships.
+13.	Regression Plots:
+•	sns.regplot(): Plot data and a linear regression model fit.
+14.	Miscellaneous:
+•	sns.despine(): Remove the top and right spines from plots.
+•	sns.set_context(): Set the plotting context parameters.
+
