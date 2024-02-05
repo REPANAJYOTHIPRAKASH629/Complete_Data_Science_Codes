@@ -84,3 +84,48 @@ NumPy provides a wide range of functions for efficient numerical operations on a
 •	df.apply(): Apply a function along the axis of a DataFrame.
 •	df.isnull(), df.notnull(): Check for missing or non-missing values.
 
+
+
+<b>Matplotlib</b>
+1.	Basic Plotting:
+•	plt.plot(): Create line plots.
+•	plt.scatter(): Create scatter plots.
+•	plt.bar(): Create bar plots.
+•	plt.hist(): Create histograms.
+•	plt.pie(): Create pie charts.
+•	plt.boxplot(): Create boxplots.
+•	plt.errorbar(): Add error bars to a plot.
+2.	Axes and Labels:
+•	plt.xlabel(), plt.ylabel(): Set the labels for the x and y axes.
+•	plt.title(): Set the title of the plot.
+•	plt.legend(): Add a legend to the plot.
+•	plt.grid(): Add a grid to the plot.
+•	plt.xlim(), plt.ylim(): Set the limits of the x and y axes.
+3.	Annotation and Text:
+•	plt.text(): Add text to the plot.
+•	plt.annotate(): Annotate a specific point in the plot.
+4.	Figure and Subplots:
+•	plt.figure(): Create a new figure.
+•	plt.subplot(): Create subplots within a figure.
+•	plt.subplots(): Create multiple subplots in a single call.
+5.	Color and Style:
+•	plt.color(): Set the color of the plot elements.
+•	plt.linestyle(), plt.marker(): Set the line style and marker style.
+•	plt.plot(..., label='label'): Specify labels for the legend.
+6.	Saving and Displaying Plots:
+•	plt.show(): Display the plot.
+•	plt.savefig(): Save the plot to a file (e.g., PNG, PDF).
+7.	Customizing Ticks and Tick Labels:
+•	plt.xticks(), plt.yticks(): Customize the tick locations.
+•	plt.tick_params(): Customize various aspects of ticks and tick labels.
+8.	3D Plots (with mplot3d toolkit):
+•	from mpl_toolkits.mplot3d import Axes3D: Import the 3D plotting toolkit.
+•	ax = plt.axes(projection='3d'): Create a 3D subplot.
+9.	Colormaps and Colorbars:
+•	plt.cm: Access predefined colormaps.
+•	plt.colorbar(): Add a colorbar to the plot.
+10.	Miscellaneous:
+•	plt.style.use(): Set the style of the plot.
+•	plt.close(): Close a figure.
+•	plt.tight_layout(): Adjust subplot parameters for better layout.
+
