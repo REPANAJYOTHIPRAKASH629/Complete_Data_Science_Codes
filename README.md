@@ -43,3 +43,44 @@ NumPy provides a wide range of functions for efficient numerical operations on a
 36. np.linalg.lstsq(): Solves a system of linear equations using least squares.
 37. np.add(): Adds two arrays element-wise.
 38. np.sum(x): Calculates the sum of the elements in x.
+
+<u><b> Pandas Functions</b></u>
+
+1.	Creating DataFrames:
+•	pd.DataFrame(): Create an empty DataFrame.
+•	pd.read_csv(): Read data from a CSV file into a DataFrame.
+•	pd.read_excel(): Read data from an Excel file into a DataFrame.
+•	pd.read_sql(): Read data from a SQL database into a DataFrame.
+2.	Data Exploration:
+•	df.head(): Display the first few rows of a DataFrame.
+•	df.tail(): Display the last few rows of a DataFrame.
+•	df.sample(): Randomly sample rows from a DataFrame.
+•	df.info(): Display a concise summary of a DataFrame.
+•	df.describe(): Generate descriptive statistics of a DataFrame.
+•	df.shape: Get the number of rows and columns in a DataFrame.
+•	df.columns: Get the column names of a DataFrame.
+3.	Data Manipulation:
+•	df.drop(): Drop specified labels from rows or columns.
+•	df.fillna(): Fill missing values in a DataFrame.
+•	df.replace(): Replace specified values in a DataFrame.
+•	df.rename(): Rename columns in a DataFrame.
+•	df.sort_values(): Sort a DataFrame by specified columns.
+•	df.groupby(): Group data in a DataFrame based on specified criteria.
+•	df.pivot_table(): Create a pivot table in a DataFrame.
+4.	Merging and Concatenating:
+•	pd.concat(): Concatenate DataFrames along a particular axis.
+•	pd.merge(): Merge two DataFrames based on specified keys.
+5.	Indexing and Selection:
+•	df[] or df.loc[] or df.iloc[]: Select columns or rows from a DataFrame.
+•	df.at[] or df.iat[]: Access a single value in a DataFrame.
+6.	Aggregation and Statistics:
+•	df.mean(), df.median(), df.sum(): Calculate mean, median, and sum.
+•	df.min(), df.max(): Find minimum and maximum values.
+•	df.std(), df.var(): Calculate standard deviation and variance.
+7.	Handling Time Series Data:
+•	pd.to_datetime(): Convert a column to datetime format.
+•	df.resample(): Resample time series data.
+8.	Miscellaneous:
+•	df.apply(): Apply a function along the axis of a DataFrame.
+•	df.isnull(), df.notnull(): Check for missing or non-missing values.
+
